@@ -1,0 +1,21 @@
+import React from 'react'
+import Link from 'next/link'
+import styles from '../styles/Home.module.css'
+
+function Navbar() {
+    return (
+        <>
+        <nav className={styles.mainNav}>
+                <ul>
+                    <Link href='/'><li> <a>Home </a></li></Link>
+                    <Link href='/about'><li> <a>About</a> </li></Link>
+                    <Link href='/blog'><li> Blog </li></Link>
+                    <Link href='/contact'><li> Contact </li></Link>
+
+                </ul>
+            </nav>
+        </>
+    )
+}
+
+export default Navbar

@@ -1,0 +1,34 @@
+.container{
+    max-width: 45vw;
+    margin: auto;
+}
+
+.form{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control{
+    padding:5px;
+    font-size: 15px;
+    border-radius: 10px ;
+}
+.button{
+    color: white;
+  background-color:rgb(66, 66, 66);
+  padding: 7px 20px;
+  border-radius: 6px ;
+  cursor: pointer;
+  font-size: 20px;
+}
+.lebel{
+    margin: 5px 0px;
+}
+
+@media (max-width: 600px) {
+    .container{
+        max-width: 85vw;
+        margin: auto;
+  }
+  }
